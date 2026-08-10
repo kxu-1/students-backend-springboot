@@ -6,11 +6,13 @@ import com.example.students.exception.ResourceNotFoundException;
 import com.example.students.mapper.StudentMapper;
 import com.example.students.repository.StudentRepository;
 import com.example.students.service.StudentService;
+import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+@AllArgsConstructor
 @Service
 public class StudentServiceImpl implements StudentService {
 

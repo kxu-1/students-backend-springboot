@@ -2,12 +2,14 @@ package com.example.students.controller;
 
 import com.example.students.dto.StudentDto;
 import com.example.students.service.StudentService;
+import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@AllArgsConstructor
 @RestController
 @RequestMapping ("/api/students")
 public class StudentController {
